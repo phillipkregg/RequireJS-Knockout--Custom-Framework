@@ -1,4 +1,4 @@
-require(['task_manager'], function() {
+require(['task_manager'], function(taskManager) {
   'use strict';
 
   var aTask = taskManager.createTask('My first task');

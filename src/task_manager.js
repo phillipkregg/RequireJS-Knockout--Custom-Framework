@@ -1,10 +1,10 @@
-define(['task', 'exports'], function(task, exports) {
+define(['task', 'exports'], function(Task, exports) {
   'use strict';
 
   function createTask() {
     return new Task(name);
   }
 
-  exports.createTask = createTask; 
+  exports.createTask = createTask;
 
 });
