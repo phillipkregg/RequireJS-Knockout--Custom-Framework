@@ -2,7 +2,7 @@ define(['knockout'], function(ko) {
   'use strict';
 
   function render(container, view, viewModel) {
-    var intermediateContainer = document.createElement('div');
+    var intermediateContainer       = document.createElement('div');
     intermediateContainer.innerHTML = view;
     container.appendChild(intermediateContainer);
 

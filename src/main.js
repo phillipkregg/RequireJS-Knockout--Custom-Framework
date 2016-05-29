@@ -4,7 +4,7 @@ require(['text!views/app.html', 'view_models/app', 'renderer'], function(appView
   var container = document.body,
       viewModel = new App();
 
-      renderer.render(container, appView, viewModel);
+  renderer.render(container, appView, viewModel);
 
 
 
